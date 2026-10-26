@@ -12,16 +12,9 @@
 </head>
 
 <body>
-<div class="preloader">
-    <div class="pl-in"><img src="assets/agaaw_logo_noBG.png" alt="">
-        <span class="pl-num">0</span>
-    </div>
-</div>
-
 <div class="progress"></div>
 <div class="cur-dot"></div>
 <div class="cur-ring"></div>
-<div class="curtain"></div>
 <header class="nav">
     <a class="logo" href="index.html">
         <img src="assets/agaaw_logo_noBG.png" alt="Agaaw logo">
@@ -32,7 +25,7 @@
         <a href="index.html#countries" data-t>Countries</a>
         <a href="about.html" data-t>About</a>
     </nav>
-    <a class="btn btn-maroon" href="#">Sign in</a>
+    <a class="btn btn-dark" href="#">Sign in</a>
 </header>
 
 <main>
@@ -40,7 +33,7 @@
     <section class="hero dark" id="hero">
         <i class="cloud c1"></i><i class="cloud c2"></i><i class="cloud c3"></i>
     <svg class="plane" viewBox="0 0 200 80" aria-hidden="true">
-        <path d="M52 30 L30 6 L8 6 L22 36Z" fill="#e34222"/>
+        <path d="M52 30 L30 6 L8 6 L22 36Z" fill="#5B0A0A"/>
         <path d="M10 40C10 30 40 26 110 26L165 28C190 30 196 38 196 40C196 44 190 50 165 52L110 54C40 54 10 50 10 40Z" fill="#fff" stroke="#0d1f1c" stroke-width="3"/>
         <path d="M95 46L68 76H92L130 48Z" fill="#046a38"/>
         <circle cx="140" cy="38" r="4" fill="#0d1f1c"/><circle cx="122" cy="38" r="4" fill="#0d1f1c"/><circle cx="104" cy="38" r="4" fill="#0d1f1c"/>
@@ -112,12 +105,12 @@
         <p class="route-lbl">Starting from Bangladesh</p>
     </div>
     <div class="hs-track">
-        <a class="ctry" href="#"><h3>Germany</h3><p>Free tuition · Research</p></a>
-        <a class="ctry" href="#"><h3>Canada</h3><p>PR pathway · Work rights</p></a>
-        <a class="ctry" href="#"><h3>Australia</h3><p>20 hr work · Quality of life</p></a>
-        <a class="ctry" href="#"><h3>United Kingdom</h3><p>Graduate visa · Top universities</p></a>
-        <a class="ctry" href="#"><h3>Japan</h3><p>MEXT · Tech hub</p></a>
-        <a class="ctry" href="#"><h3>United States</h3><p>Fulbright · Research</p></a>
+        <a class="ctry" href="#" style="--photo: url(assets/countries/Germany.jpg)"><h3>Germany</h3><p>Free tuition · Research</p></a>
+        <a class="ctry" href="#" style="--photo: url(assets/countries/Canada.jpg)"><h3>Canada</h3><p>PR pathway · Work rights</p></a>
+        <a class="ctry" href="#" style="--photo: url(assets/countries/Australia.jpg)"><h3>Australia</h3><p>20 hr work · Quality of life</p></a>
+        <a class="ctry" href="#" style="--photo: url(assets/countries/United_Kingdom.jpg)"><h3>United Kingdom</h3><p>Graduate visa · Top universities</p></a>
+        <a class="ctry" href="#" style="--photo: url(assets/countries/Japan.jpg)"><h3>Japan</h3><p>MEXT · Tech hub</p></a>
+        <a class="ctry" href="#" style="--photo: url(assets/countries/United_States.jpg)"><h3>United States</h3><p>Fulbright · Research</p></a>
     </div>
 </section>
 
@@ -132,9 +125,9 @@
 <section class="sec" id="blog">
     <div class="wrap"><h2 class="h2">Read before you apply</h2>
         <div class="grid3">
-            <a class="post" href="#"><i></i><h3>Red flags in a student's SOP</h3><p>The most common mistakes that get applications rejected.</p></a>
-            <a class="post" href="#"><i></i><h3>What to know about the German visa</h3><p>Block account, health insurance and APS, explained.</p></a>
-            <a class="post" href="#"><i></i><h3>Think like a scholarship committee</h3><p>What reviewers actually look for in your story.</p></a>
+            <a class="post" href="#"><i><img src="assets/blogs/01-sop-red-flags.jpg" alt="Student reviewing a statement of purpose" loading="lazy"></i><h3>Red flags in a student's SOP</h3><p>The most common mistakes that get applications rejected.</p></a>
+            <a class="post" href="#"><i><img src="assets/blogs/02-german-visa-checklist.jpg" alt="Document checklist for a German student visa" loading="lazy"></i><h3>What to know about the German visa</h3><p>Block account, health insurance and APS, explained.</p></a>
+            <a class="post" href="#"><i><img src="assets/blogs/03-scholarship-committee.jpg" alt="Scholarship committee reviewing applications" loading="lazy"></i><h3>Think like a scholarship committee</h3><p>What reviewers actually look for in your story.</p></a>
         </div>
     </div>
 </section>
@@ -151,8 +144,6 @@
         <small>© 2026 Agaaw</small>
     </div>
 </footer>
-
-</main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
